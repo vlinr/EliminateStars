@@ -1,0 +1,1 @@
+{"type":"Scene","props":{"width":750,"height":1334},"compId":2,"child":[{"type":"Sprite","props":{"y":0,"x":0,"var":"tipBg","texture":"load/startBg.jpg","name":"tipBg"},"compId":3},{"type":"Script","props":{"runtime":"gametip/GameTip.ts"},"compId":4}],"loadList":["load/startBg.jpg"],"loadList3D":[]}

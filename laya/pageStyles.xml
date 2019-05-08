@@ -1,0 +1,5 @@
+<page>
+   <item name="GameScene/Loading.scene" props="" ifExport="加载模式" aName=""/>
+   <item name="GameScene/LoadScene.scene" props="" ifExport="分离模式" aName=""/>
+   <item name="GameScene/GameTip.scene" props="" ifExport="分离模式" aName=""/>
+</page>
