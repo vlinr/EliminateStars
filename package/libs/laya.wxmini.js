@@ -153,9 +153,14 @@ var MiniAdpter=(function(){
 	}
 
 	MiniAdpter.getUrlEncode=function(url,type){
-		if (type=="arraybuffer")
+		if (url.indexOf(".fnt") != -1 || url.indexOf(".json") != -1) 
+		{
+			return "utf8";
+		} else if (type == "arraybuffer") 
+		{
 			return "";
-		return "utf8";
+		}
+		return "ascii";
 	}
 
 	MiniAdpter.downLoadFile=function(fileUrl,fileType,callBack,encoding){
